@@ -87,7 +87,7 @@ for epoch in range(epochs_n):
 # 保存神经网络权重
 np.savez('My_model_new.npz', v=Mynet.v, r=Mynet.r, w=Mynet.w, c=Mynet.c)
 # 绘制混淆矩阵
-plt.subplot(1, 1, 1)
-sns.heatmap(conf_matrix_test, annot=True, fmt="d", cmap="Blues", xticklabels=range(10), yticklabels=range(10))
-plt.title('Confusion Matrix')
-plt.show()
+# plt.subplot(1, 1, 1)
+# sns.heatmap(conf_matrix_test, annot=True, fmt="d", cmap="Blues", xticklabels=range(10), yticklabels=range(10))
+# plt.title('Confusion Matrix')
+# plt.show()
